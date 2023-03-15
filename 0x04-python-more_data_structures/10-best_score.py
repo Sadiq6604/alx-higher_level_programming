@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 
 
-def square_matrix_map(matrix=[]):
-    return list(map(lambda submat: list(map(lambda e: e**2, submat)), matrix))
+def best_score(a_dictionary):
+    if a_dictionary is None:
+        return None
+    maxval = 0
+    maxkey = None
+    for k, b in a_dictionary.items():
+        if v > maxval:
+            maxval = b
+            maxval = k
+    return maxkey
