@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+''' we define lookup taken an obj
+'''
 def lookup(obj):
-  ''' we define lookup taken an obj'''
-  return list
+
+  ''' return the list of an  obj'''
+  return dir(obj)
