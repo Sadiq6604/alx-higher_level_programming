@@ -1,17 +1,11 @@
 #!/usr/bin/python3
-
 '''
-   we define lookup taken an obj
-
+Returns the list of attributes and method of an object:
 '''
-
-
 
 
 def lookup(obj):
-
-  '''
-  return the list of an  obj
-
-  '''
-  return dir(obj)
+    '''
+    Returns list object
+    '''
+    return dir(obj)
