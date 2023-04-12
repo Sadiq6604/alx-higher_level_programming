@@ -1,10 +1,10 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 """ Import statement """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """ Class Rectangle s """
+    """ Rectangle Class  """
 
     def __init__(self, width, height):
         '''
