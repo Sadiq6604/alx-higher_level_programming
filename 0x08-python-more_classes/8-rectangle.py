@@ -1,4 +1,3 @@
- lines (180 sloc)  5.83 KB
 #!/usr/bin/python3
 """
 Module with a Rectangle that does nothing
