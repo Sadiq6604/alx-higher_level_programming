@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" The  Module that contains a func  that appends to a text file
+""" The Module that contains a func  that appends to a text file
 """
 
 
